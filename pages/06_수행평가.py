@@ -47,7 +47,7 @@ st.markdown("---")
 # CSV 읽기
 # pages 폴더의 상위 폴더에 있는 CSV
 # ---------------------------
-csv_path = Path(__file__).resolve().parent.parent / "fastfood(1).csv"
+csv_path = Path(__file__).resolve().parent.parent / "fastfood.csv"
 
 if not csv_path.exists():
     st.error(f"CSV 파일을 찾을 수 없습니다.\n\n찾는 위치:\n{csv_path}")
